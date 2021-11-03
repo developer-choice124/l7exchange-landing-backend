@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "612616d69dc71118bcf4b42f"
+  },
+  "question": "Can Indian Players join L7 Exchange?",
+  "answer": "Yes, L7 Exchange accepts Indian players with a smile!",
+  "created_at": {
+    "$date": "2021-08-25T10:09:26.326Z"
+  },
+  "updated_at": {
+    "$date": "2021-08-25T10:09:26.326Z"
+  }
+},{
+  "_id": {
+    "$oid": "612616da9dc71118bcf4b430"
+  },
+  "question": "Can Indian Players join L7 Exchange?",
+  "answer": "Yes, L7 Exchange accepts Indian players with a smile!",
+  "created_at": {
+    "$date": "2021-08-25T10:09:30.355Z"
+  },
+  "updated_at": {
+    "$date": "2021-08-25T10:09:30.355Z"
+  }
+},{
+  "_id": {
+    "$oid": "612616de9dc71118bcf4b432"
+  },
+  "question": "Can Indian Players join L7 Exchange?",
+  "answer": "Yes, L7 Exchange accepts Indian players with a smile!",
+  "created_at": {
+    "$date": "2021-08-25T10:09:34.115Z"
+  },
+  "updated_at": {
+    "$date": "2021-08-25T10:09:34.115Z"
+  }
+}]

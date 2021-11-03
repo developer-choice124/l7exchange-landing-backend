@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "6124be80a4dae4125cd147e2"
+  },
+  "logoImage": "http://localhost:4000/assets/logo/3cff1149-867d-45a3-a387-fb00eb8bbd90Logo1629888891037.png",
+  "type": "logo",
+  "created_at": {
+    "$date": "2021-08-24T09:40:16.114Z"
+  },
+  "updated_at": {
+    "$date": "2021-08-24T09:40:16.114Z"
+  }
+},{
+  "_id": {
+    "$oid": "6124dbb3807a3f0ae8de127e"
+  },
+  "ads_title": "Offers 20% off on all ",
+  "ads_desc": "the quick brown fox jump over hte lazy dog",
+  "ads_banner": "http://localhost:4000/assets/ads/9146fe71-fbb8-43c6-9fd6-95336947dd29Ads1629805491883.png",
+  "type": "ads",
+  "created_at": {
+    "$date": "2021-08-24T11:44:51.900Z"
+  },
+  "updated_at": {
+    "$date": "2021-08-24T11:44:51.900Z"
+  }
+},{
+  "_id": {
+    "$oid": "6125f9e9a19fe40ca8b1ef55"
+  },
+  "mediaName": "Facebook",
+  "linkWeb": "https://www.facebook.com/l7exchange",
+  "type": "social-media",
+  "Icon": "http://localhost:4000/assets/logo/ea38d299-92dd-41b8-9826-4bdaa41c2d07LogoSocialmedia1629878761823.png",
+  "created_at": {
+    "$date": "2021-08-25T08:06:01.828Z"
+  },
+  "updated_at": {
+    "$date": "2021-08-25T08:06:01.828Z"
+  }
+},{
+  "_id": {
+    "$oid": "6125fa28a19fe40ca8b1ef56"
+  },
+  "mediaName": "Instagram",
+  "linkWeb": "https://www.instagram.com/l7exchange.official/",
+  "type": "social-media",
+  "Icon": "http://localhost:4000/assets/logo/6d42e830-7536-4a60-8182-a1a625177232LogoSocialmedia1629878824962.png",
+  "created_at": {
+    "$date": "2021-08-25T08:07:04.966Z"
+  },
+  "updated_at": {
+    "$date": "2021-08-25T08:07:04.966Z"
+  }
+},{
+  "_id": {
+    "$oid": "613211409746b52934536691"
+  },
+  "mediaName": "Telegram",
+  "linkWeb": "https://t.me/l7exchange",
+  "type": "social-media",
+  "created_at": {
+    "$date": "2021-09-03T12:12:48.657Z"
+  },
+  "updated_at": {
+    "$date": "2021-09-03T12:12:48.657Z"
+  },
+  "Icon": "http://localhost:4000/assets/logo/1188dca2-cba0-4cce-9c8f-b5848c846843LogoSocialmedia1630671168640.png"
+},{
+  "_id": {
+    "$oid": "61376a97126f8b2c042890db"
+  },
+  "banner": "http://localhost:4000/assets/upload/194aecb2-7250-4f26-956b-fef6615e13a2Banner1631021719560.jpg",
+  "type": "banner",
+  "created_at": {
+    "$date": "2021-09-07T13:35:19.618Z"
+  },
+  "updated_at": {
+    "$date": "2021-09-07T13:35:19.618Z"
+  }
+},{
+  "_id": {
+    "$oid": "6138a03cf408a7189860790f"
+  },
+  "banner": "http://localhost:4000/assets/upload/99067ab3-e293-4fb5-94db-745cf3b9ef7aBanner1631100988184.jpg",
+  "type": "banner",
+  "created_at": {
+    "$date": "2021-09-08T11:36:28.193Z"
+  },
+  "updated_at": {
+    "$date": "2021-09-08T11:36:28.193Z"
+  }
+},{
+  "_id": {
+    "$oid": "6138bdc0f408a71898607910"
+  },
+  "banner": "http://localhost:4000/assets/upload/18de2884-77e5-4f5e-b1ea-6162bc046fc3Banner1631108544992.jpg",
+  "type": "banner",
+  "created_at": {
+    "$date": "2021-09-08T13:42:24.997Z"
+  },
+  "updated_at": {
+    "$date": "2021-09-08T13:42:24.997Z"
+  }
+}]
