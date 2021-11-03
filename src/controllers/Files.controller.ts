@@ -80,7 +80,7 @@ export function bannerUpdate(req: any, res: Response) {
             res.status(RFC.H412).send(errorMsg(VALIDATION_ERROR, err.errors));
         }
         else {
-            var where: any = { _id: new ObjectId(req.body.id) };
+            var where: any = { _id: new ObjectId(req.params.id) };
             
             var newvalues = { $set: { image: `${config.imagePath}/assets/upload/${req.file.filename}` } };
             Settings.updateOne(where, newvalues).then((result: any) => {

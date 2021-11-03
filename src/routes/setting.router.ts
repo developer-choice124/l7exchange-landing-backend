@@ -10,7 +10,7 @@ import unlinkImage from '../middlewares/fileUnlink.middleware';
 let setting_router = express.Router();
 
 //logo upload
-setting_router.post("/uploadlogo", UploadLogoFile, logoUpload);
+setting_router.post("/uploadlogo", jwtMiddleware, UploadLogoFile, logoUpload);
 //Social Media Links upload
 setting_router.post("/socialmedia", jwtMiddleware,UploadSocialFile, logoSocialUpload);
 //privacy-policy 
@@ -39,8 +39,6 @@ setting_router.get("/findqa", QAData);
 setting_router.get("/adslist", adsData);
 //privacy-polisy
 setting_router.get("/policydata", policyData);
-//unlink image
-setting_router.post('/unlink/:id',unlinkImage)
 export {
     setting_router
 };

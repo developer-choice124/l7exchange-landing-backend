@@ -8,7 +8,7 @@ let banner_router = express.Router();
 //banner image upload
 banner_router.post("/uploadbanner", jwtMiddleware, UploadImageFile, fileUpload);
 //logo updata 
-banner_router.post("/bannerupdate", jwtMiddleware, UploadImageFile, bannerUpdate);
+banner_router.post("/bannerupdate/:id", jwtMiddleware, unlinkImage, UploadImageFile, bannerUpdate);
 //logo updata 
 banner_router.post("/bannerdelete/:id", jwtMiddleware, unlinkImage, bannerDelete);
 //banner image access
